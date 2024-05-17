@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppHackathon</string>
+    <string name="txt_head">Figura tu sueño</string>
+    <string name="btn_SigVenVinculacion">Siguiente</string>
+</resources>
