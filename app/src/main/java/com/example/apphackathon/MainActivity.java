@@ -27,13 +27,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
-    //Boton para entrar a la configuracón del bluetooth
-    ImageButton configblue = findViewById(R.id.configBlue);
-// configblue.setOnClickListener(v -> abrirConfiButton());
-    public void abrirConfiButton() {
-        Intent intent = new Intent(Settings.ACTION_BLUETOOTH_SETTINGS);
-        startActivity(intent);
-    }
+
 
 
 }

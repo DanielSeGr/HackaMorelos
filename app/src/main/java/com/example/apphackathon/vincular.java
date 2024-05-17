@@ -8,6 +8,9 @@ import android.provider.Settings;
 import android.widget.ImageButton;
 
 public class vincular extends AppCompatActivity {
+public static final String ColorTema= "colorTema";
+
+public static int colorTema;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,10 +21,5 @@ public class vincular extends AppCompatActivity {
 
     }
 
-    //Boton para entrar a la configuracón del bluetooth
-    //
-    //public void abrirConfiButton() {
- //       Intent intent = new Intent(Settings.ACTION_BLUETOOTH_SETTINGS);
-//        startActivity(intent);
-  //  }
+
 }
